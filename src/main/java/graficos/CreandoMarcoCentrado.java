@@ -13,8 +13,6 @@ public class CreandoMarcoCentrado {
     public MarcoCentrado(){
         setTitle("Mi marco centrado");
 
-
-
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Toolkit miPantalla = Toolkit.getDefaultToolkit();
