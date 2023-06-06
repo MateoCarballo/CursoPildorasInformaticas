@@ -30,7 +30,7 @@ class Lamina extends JPanel{
         // Aqui le decimos que haga su trabajo default ↓
         super.paintComponent(g);
         // y ademas esta instruccion ↓
-        //Distancias desde la esquina superior izquierda ↓      ↓
+        //Distancias desde la esquina superior izquierda-↓-----↓
         g.drawString("Estamos aprendiendo SWING",100,100);
     }
 }
