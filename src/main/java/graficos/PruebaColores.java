@@ -45,7 +45,6 @@ public void paintComponent (Graphics g){
     g2D.setPaint(Color.RED);
     elipse.setFrame(rectangulo);
     g2D.draw(elipse);
-
     g2D.setPaint(verdeAguaMarina);
     g2D.fill(elipse);
 
