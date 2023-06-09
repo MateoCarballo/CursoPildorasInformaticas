@@ -57,15 +57,7 @@ class LaminaConFiguras extends JPanel{
          */
     }
 }
-class MarcoCentradoPcCasa extends JFrame{
-    public MarcoCentradoPcCasa(){
-        Toolkit miPantalla = Toolkit.getDefaultToolkit();
-        Dimension pantalla = miPantalla.getScreenSize();
 
-        setBounds(pantalla.width/4, pantalla.height/4,
-                pantalla.width/2,pantalla.height/2);
-    }
-}
 /*
 public class PruebaDibujo {
     public static void main(String[] args) {

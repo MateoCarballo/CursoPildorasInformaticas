@@ -24,8 +24,7 @@ class MarcoConTexto extends JFrame{
     }
 }
 
-class Lamina extends JPanel{
-
+class Lamina2 extends Lamina{
     public void paintComponent(Graphics g){
         // Aqui le decimos que haga su trabajo default ↓
         super.paintComponent(g);
