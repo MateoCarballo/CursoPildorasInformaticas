@@ -3,7 +3,7 @@ package graficos;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
+
 import java.awt.geom.Rectangle2D;
 
 public class PruebaColores {
@@ -38,9 +38,6 @@ public void paintComponent (Graphics g){
     g2D.draw(rectangulo);
     g2D.setPaint(Color.WHITE);
     g2D.fill(rectangulo);
-
-
-
     Ellipse2D elipse = new Ellipse2D.Double();
     g2D.setPaint(Color.RED);
     elipse.setFrame(rectangulo);
